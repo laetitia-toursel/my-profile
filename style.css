@@ -1,0 +1,134 @@
+/* Colors and fonts */
+
+#Introduction{
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 1px 15px 30px rgb(78 118 171);
+	padding: 30px;
+	margin: 30px;
+	text-align: center;
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 20px;
+	box-shadow :1px 15px 30px rgb(78 118 171);
+	padding: 30px;
+	margin: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.container {
+	background-color: rgb(254 247 247 / 35%);
+	padding: 15px;
+	margin: 80px;
+	border-radius: 40px;
+	box-shadow :1px 20px 60px rgb(78 118 171);
+}
+
+.img-circle{
+	border-radius: 90px;
+}
+
+body {
+	
+background-image: url(images/ciel.jpg);
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0,2px;
+
+    text-align: center;
+   
+    font-weight: lighter;
+}
+
+h1{
+	font-family: 'Bebas Neue', cursive;
+	color: #f49b2d;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+	text-align: center;
+}
+
+h2,h3 {
+	font-family: 'Varela Round', sans-serif;
+}
+h2 {
+  color: #95D1EE;
+	font-size: 30px;
+}
+
+h3 {
+  color: #f49b2d;
+	font-size: 20px;
+}
+
+#button {
+	padding: 10px;
+	box-shadow :0px 3px 10px #60a0e0ba;
+	border-radius: 10px;
+	background-color:#98caf1;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+} 
+
+#button:hover {
+	background-color: black;
+}
+
+a{
+	font-family: 'Varela Round', sans-serif;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 0.5px;
+	transition: color 0.5s ease;
+}
+
+a:hover {
+	color : white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #95D1EE;
+}
+.list-inline i:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
